@@ -1,0 +1,149 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  color: #FFF;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+a {
+  font-size: 0.8em;
+  color: #CCC;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#main {
+  position: absolute;
+  width : 960px;
+  top: 80px;
+  left: 50%;
+  margin-left: -480px;
+  text-align: center;
+}
+#main > div {
+  display: none;
+}
+
+#footer {
+  position: absolute;
+  width: 960px;
+  top: 500px;
+  left: 50%;
+  margin-left: -480px;
+  text-align: center;
+  font-size: 0.5em;
+  color: #333;
+}
+#footer a {
+  font-weight: bold;
+  color: #444;
+}
+
+#intro {
+  position: absolute;
+  width: 696px;
+  height: 320px;
+  top: 0px;
+  left: 132px;
+}
+#intro .box {
+  margin: 0 auto;
+  width: 696px;
+  height: 320px;
+  border: thick solid #FFF;
+}
+#intro .logo {
+  font-size: 5.5em;
+  font-weight: bold;
+  line-height: 0.8;
+  margin-top: 55px;
+  margin-bottom: 25px;
+}
+#intro .help {
+  font-size: 1.5em;
+  text-transform: none;
+}
+
+#intro .button {
+  width: 232px;
+  height: 100px;
+  padding-top: 60px;
+  position: absolute;
+  background: #FFF;
+  color: #000;
+  border: thick solid #FFF;
+  opacity: 0;
+  cursor: pointer;
+}
+#intro .button:hover {
+  opacity: 1;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#intro .buttonBook {
+  top: 0px;
+  left: 0px;
+}
+#intro .buttonInvitation {
+  top: 160px;
+  left: 232px;
+}
+#intro .buttonNewspaper {
+  top: 0px;
+  left: 464px;
+}
+#intro .buttonInfographic {
+  top: 160px;
+  left: 0px;
+}
+#intro .buttonLogo {
+  top: 0px;
+  left: 232px;
+}
+
+#questions {
+  margin-top: 70px;
+}
+#question {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+#buttons {
+  /*text-align: center;*/
+}
+#buttons > div {
+  margin: 10px;
+  padding: 20px;
+
+  color: #FFF;
+  border: thin solid #FFF;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+
+  display: inline-table;
+  cursor: pointer;
+}
+#buttons > div:hover {
+  background: #FFF;
+  color: #000;
+}
+
+#result {
+  margin-top: 40px;
+}
+#result #font {
+  padding: 20px;
+}
+
+#preload {
+  display: none;
+}
